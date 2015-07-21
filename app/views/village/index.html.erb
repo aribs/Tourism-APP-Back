@@ -1,0 +1,11 @@
+<h1>Villages</h1>
+<% @villages.each do |village| %>
+	<ul>
+		<li>
+			<%= village.name %>
+			<%= village.infoText %>
+			<%= village.latitude %>
+			<%= village.longitude %>
+		</li>
+	</ul>
+<% end %>
